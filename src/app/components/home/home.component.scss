@@ -1,8 +1,4 @@
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-/* home.component.css */
+/* home.component.scss */
 
 .container {
   max-width: 1200px;
@@ -33,6 +29,23 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   flex: 1;
+}
+
+.search-section input[type="date"]::placeholder {
+  /* Additional styling for date input placeholder */
+  color: #999;
+  opacity: 0.5;
+}
+
+.search-section input[type="date"]:focus {
+  /* Additional styling for date input when focused */
+  outline: none;
+  border-color: #007bff;
+}
+
+.search-section input[type="date"]:hover {
+  /* Additional styling for date input when hovered */
+  border-color: #666;
 }
 
 .search-section button {

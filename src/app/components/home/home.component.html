@@ -11,7 +11,7 @@
       <select>
         <option value="1">1 Guest</option>
         <option value="2">2 Guests</option>
-        <option value="3">2 Guests</option>
+        <option value="3">3 Guests</option>
       </select>
       <button type="submit">Search</button>
     </form>
@@ -19,12 +19,12 @@
   <section class="featured-hotels">
     <!-- Featured Hotels Section -->
     <h2>Featured Hotels</h2>
-    <div class="hotel-card">
+    <div class="hotel-card" *ngFor="let hotel of featuredHotels">
       <!-- Featured Hotel Card -->
-      <img [src]="" alt="Hotel Image" />
-      <h3>hotel.name</h3>
-      <p>hotel.location</p>
-      <p>Price:</p>
+      <img [src]="hotel.imageUrl" alt="Hotel Image" />
+      <h3>{{ hotel.name }}</h3>
+      <p>{{ hotel.location }}</p>
+      <p>Price: {{ hotel.price }}</p>
     </div>
   </section>
 

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Hotel ABC",
+    "location": "City X",
+    "price": 100,
+    "image": "hotel-abc.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam risus nec libero varius tincidunt. Integer vel est urna. Nulla facilisi. Sed tristique, elit vel fermentum tempus, ligula velit dictum lorem, id congue nunc nisl sed arcu."
+  },
+  {
+    "id": 2,
+    "name": "Hotel XYZ",
+    "location": "City Y",
+    "price": 120,
+    "image": "hotel-xyz.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam risus nec libero varius tincidunt. Integer vel est urna. Nulla facilisi. Sed tristique, elit vel fermentum tempus, ligula velit dictum lorem, id congue nunc nisl sed arcu."
+  },
+  {
+    "id": 3,
+    "name": "Hotel PQR",
+    "location": "City Z",
+    "price": 150,
+    "image": "hotel-pqr.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam risus nec libero varius tincidunt. Integer vel est urna. Nulla facilisi. Sed tristique, elit vel fermentum tempus, ligula velit dictum lorem, id congue nunc nisl sed arcu."
+  }
+]
